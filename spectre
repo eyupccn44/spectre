@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# spectre — website mirroring & passive recon tool
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec "$SCRIPT_DIR/.venv/bin/python3" "$SCRIPT_DIR/spectre.py" "$@"
